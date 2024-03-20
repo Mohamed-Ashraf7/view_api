@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "conatct_infos",
+  "info": {
+    "singularName": "conatct-info",
+    "pluralName": "conatct-infos",
+    "displayName": "conatct-info"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
